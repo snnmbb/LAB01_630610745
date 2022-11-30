@@ -4,12 +4,22 @@ public class AirPurifier {
     int year;
     double Airquality;
     double pm2_5;
+    int level;
+    String status;
+    String module_code;
 
     void showinformation()
     {
+        System.out.println("Module code : " + module_code );
         System.out.println("Color : " + color);
         System.out.println("From : " + company);
         System.out.println("Made in : " + year);
+    }
+
+    void system()
+    {
+        System.out.println("Status : " + status);
+        System.out.println("Now , Working on : " + level + " level.");
     }
 
     void displayAirQuality() {
