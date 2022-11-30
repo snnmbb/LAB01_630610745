@@ -19,7 +19,7 @@ public class AirPurifier {
     void system()
     {
         System.out.println("Status : " + status);
-        System.out.println("Now , Working on : " + level + " level.");
+        System.out.println("Now , Working on level : " + level );
     }
 
     void displayAirQuality() {
