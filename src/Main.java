@@ -1,14 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        AirPurifier airPurifier = new AirPurifier(100.0 ,30.0);
+        AirPurifier airPurifier = new AirPurifier("airpurifier001","Xiaomi","white",2019,100.0 ,30.0,"Power on",3);
         AirPurifier airPurifier2 = new AirPurifier();
 
-        airPurifier.module_code = "airpurifier001";
-        airPurifier.company = "Xiaomi";
-        airPurifier.color = "white";
-        airPurifier.year = 2019;
-        airPurifier.level = 3;
-        airPurifier.status = "Power on";
         airPurifier.showinformation();
         airPurifier.system();
         airPurifier.displayAirQuality();
@@ -24,6 +18,5 @@ public class Main {
         airPurifier2.showinformation();
         airPurifier2.system();
         airPurifier2.displayAirQuality();
-
     }
 }
